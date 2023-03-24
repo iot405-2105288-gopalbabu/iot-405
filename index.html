@@ -1,47 +1,60 @@
 !DOCTYPE html>
-<html>
-    <title>table</title>
-<style>
-    *{
-        padding: 0;
-        margin: 0;
-    }
-table, th, td{
-  border:5px solid black;
-  border-collapse: collapse;
-}
-td:hover{
-    background: gray;
-    color:red
-    
-}
-</style>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <style>
+        .submit{
+            margin: 2px;
+            padding: 10px 15px;
+            border: 2px;
+            background-color: blue;
+            box-sizing: border-box;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
 <body>
+    <CENTER>
+    <h1>
+        <STrong>SIGN IN</STrong>
+    </h1>
+    <Form>
+        
+        <div> FirstName:<input type="text" class="name"></div>
 
-<table style="width:100%">
-  <tr>
-    <th></th>
-    <th style="height:128px">HEADER</th> 
-  </tr>
-  <tr style="height:100px">
-    <td style="width:150px">OPEN</td>
-  </tr>
-  <tr style="height:100px">
-    <td >ABOUT</td>
-  </tr >
-  <tr style="height:100px">
-    <td>HOME</td>
-  </tr>
-  <tr style="height:100px">
-    <td>SERVICE</td>
-  </tr>
-  <tr style="height:100px">
-    <td>CONTACT</td>
-  </tr>
-  <td>
-    <th style="height:128px">FOOTER</th>
-  </td>
-</table>
+        <br>
+        <div>
+            LastName: <input type="text" class="lastname">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="date" id="">
+        </div>
+        <br>
+        <div>
+            Gender:male<input type="radio" name="" id="">
+            female<input type="radio" name="" id="">
+        </div>
+        <br>
+        <div class="submit">
+            Submit Now<input type="submit" value="Submit Now">
+        </div>
+            
+        <div>
+            Reset:<input type="reset" value="reset now">
+        </div>
+        <button class="submit">Submit Now</button>
+    </CENTER>
 
+
+
+    </Form>
 </body>
+
 </html>
